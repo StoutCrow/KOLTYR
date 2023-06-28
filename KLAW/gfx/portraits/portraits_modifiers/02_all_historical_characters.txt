@@ -1,0 +1,46 @@
+﻿historical_characters_accessories = {
+
+    usage = game
+    selection_behavior = max
+    priority = 2
+	
+	nolfyr_henri_2 = { 
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = western_hairstyles_curly
+                accessory = male_hair_mena_04
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 0.5
+            }
+			accessory = {
+                mode = add
+                gene = headgear
+                template = northern_common
+                accessory = male_headgear_secular_northern_common_01
+            }
+			accessory = {
+                mode = add
+                gene = clothes
+                template = northern_high_nobility_clothes
+                accessory = male_clothes_secular_northern_nobility_02_high
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				exists = this
+				exists = character:nolfyr_3
+				this = character:nolfyr_3
+                portrait_low_nobles_trigger = {
+                    CULTURE_INPUT = western
+                } 
+            }
+        }
+    }
