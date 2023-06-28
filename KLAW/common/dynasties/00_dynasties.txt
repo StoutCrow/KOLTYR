@@ -1,0 +1,15 @@
+﻿###
+### Royalty
+###
+dynn_Aomer = {
+	prefix = "dynnp_of"
+	name = "dynn_Aomer"
+	culture = "athoryn"
+	motto = dynn_Aomer_motto
+}
+
+# Keeping Prydain to dodge a stubborn error.
+1029001 = {
+	name = "dynn_Prydain"
+	culture = "welsh"
+}

@@ -1,0 +1,29 @@
+bloodfolk = {
+	color = { 237 59 62 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_nerid
+	language = language_old_neridic
+	martial_custom = martial_custom_both
+	traditions = {
+		tradition_pastoralists
+		tradition_poetry
+		tradition_polygamous
+		tradition_maritime_mercantilism
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_irish
+	
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

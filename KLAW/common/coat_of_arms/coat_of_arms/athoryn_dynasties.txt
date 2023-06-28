@@ -1,0 +1,163 @@
+﻿house_Nolfyr={
+    pattern="pattern_vertical_split_01.dds"
+    color1=red
+    color2=yellow
+    color3=red
+    colored_emblem={
+        color1=white
+        color2=black
+        color3=black
+        texture="ce_wyvern_rising.dds"
+        instance={
+            position={ 0.500000 0.580000 }
+            scale={ 0.770000 0.770000 }
+            depth=1.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=white
+        color2=white
+        texture="ce_crown_head.dds"
+        instance={
+            position={ 0.500000 0.120000 }
+            scale={ 0.310000 0.310000 }
+        }
+
+    }
+
+    colored_emblem={
+        color1=black
+        texture="ce_ordinary_cross_4.dds"
+        instance={
+            depth=2.010000
+        }
+
+    }
+
+}
+
+dynn_Aomer={
+    pattern="pattern_horizontal_split_01.dds"
+    color1=blue
+    color2=red
+    color3=blue
+    colored_emblem={
+        color1=yellow
+        texture="ce_crown_head.dds"
+        instance={
+            position={ 0.500000 0.610000 }
+            scale={ 0.270000 0.270000 }
+            depth=5.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=grey
+        texture="ce_dragon_urnes_bejsebakken.dds"
+        instance={
+            position={ 0.500000 0.280000 }
+            scale={ 0.510000 0.510000 }
+            depth=3.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=yellow
+        texture="ce_snake.dds"
+        instance={
+            position={ 0.500000 0.950000 }
+            scale={ 0.560000 0.560000 }
+            depth=4.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=grey
+        texture="ce_aegishjalmr.dds"
+        instance={
+            position={ 0.190000 0.170000 }
+            scale={ 0.300000 0.300000 }
+            depth=1.010000
+        }
+
+        instance={
+            position={ 0.810000 0.170000 }
+            scale={ 0.290000 0.290000 }
+            depth=2.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=yellow
+        texture="ce_block_05.dds"
+    }
+
+}
+
+house_Aomer={
+    pattern="pattern_horizontal_split_01.dds"
+    color1=blue
+    color2=red
+    color3=blue
+    colored_emblem={
+        color1=yellow
+        texture="ce_crown_head.dds"
+        instance={
+            position={ 0.500000 0.610000 }
+            scale={ 0.270000 0.270000 }
+            depth=5.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=grey
+        texture="ce_dragon_urnes_bejsebakken.dds"
+        instance={
+            position={ 0.500000 0.280000 }
+            scale={ 0.510000 0.510000 }
+            depth=3.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=yellow
+        texture="ce_snake.dds"
+        instance={
+            position={ 0.500000 0.950000 }
+            scale={ 0.560000 0.560000 }
+            depth=4.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=grey
+        texture="ce_aegishjalmr.dds"
+        instance={
+            position={ 0.190000 0.170000 }
+            scale={ 0.300000 0.300000 }
+            depth=1.010000
+        }
+
+        instance={
+            position={ 0.810000 0.170000 }
+            scale={ 0.290000 0.290000 }
+            depth=2.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=yellow
+        texture="ce_block_05.dds"
+    }
+
+}

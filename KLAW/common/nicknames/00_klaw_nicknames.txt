@@ -1,0 +1,7 @@
+#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# Exclusively Historical Nicknames
+nick_kjaelnr = {}
+nick_whorefucker = {}

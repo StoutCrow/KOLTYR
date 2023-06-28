@@ -1,0 +1,7 @@
+﻿heritage_virican = {
+	type = heritage
+}
+
+heritage_nerid = {
+	type = heritage
+}

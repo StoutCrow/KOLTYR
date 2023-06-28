@@ -1,0 +1,297 @@
+knight = {
+	physical = no
+	good = yes
+	fame = yes
+	#group = knighthood
+	#level = 2
+
+	attraction_opinion = 10
+	same_opinion = 10
+	monthly_prestige = 0.25
+	heavy_cavalry_damage_mult = 0.05
+	knight_effectiveness_mult = 0.02
+	random_creation = 0.15
+
+	desc = {
+		first_valid ={
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_knight_unique_desc
+			}
+			desc = trait_knight_desc
+		}
+	}
+}
+
+squire = { #squirehood
+	physical = no
+	good = yes
+	#group = knighthood
+	#level = 1
+
+	attraction_opinion = 1
+	monthly_prestige = 0.1
+	same_opinion = 5
+
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_squire_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_character_flag = agot_knighthood_knightless_squire_flag
+				}
+				desc = trait_squire_no_knight_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_character_flag = agot_favors_being_a_squire_flag
+				}
+				desc = trait_prefers_being_a_squire_desc
+			}
+			desc = trait_squire_character_desc
+		}
+	}
+}
+
+#lifestyle_knight = {
+#	icon = knight.dds
+#	category = lifestyle
+#	same_opinion = 10
+#	ruler_designer_cost = 40
+#	stress_loss_mult = 0.05
+#	prowess = 5
+#	culture_modifier = {
+#		parameter = hunting_traits_more_valued
+#		monthly_prestige = 0.5
+#	}
+#	culture_modifier = {
+#		parameter = hunting_traits_more_pious
+#		monthly_piety = 0.3
+#	}
+#	culture_modifier = {
+#		parameter = forest_trait_bonuses
+#		forest_advantage = 1
+#		taiga_advantage = 1
+#	}
+#	culture_modifier = {
+#		parameter = jungle_trait_bonuses
+#		jungle_advantage = 1
+#	}
+#
+#	desc = {
+#		first_valid = {
+#			triggered_desc = {
+#				trigger = {
+#					NOT = { exists = this }
+#				}
+#				desc = trait_lifestyle_hunter_desc
+#			}
+#			desc = trait_lifestyle_hunter_character_desc
+#		}
+#	}
+#
+#	tracks = {
+#		swordsman = {
+#			50 = {
+#				stress_loss_mult = 0.05
+#				prowess = 1
+#				health = 0.05
+#				learning = 1
+#				glory_hound_opinion = 5
+#				culture_modifier = {
+#					parameter = hunting_traits_more_valued
+#					monthly_prestige = 0.5
+#					glory_hound_same_culture_opinion = 5
+#				}
+#				culture_modifier = {
+#					parameter = hunting_traits_more_pious
+#					monthly_piety = 0.3
+#					glory_hound_same_faith_opinion = 5
+#				}
+#				culture_modifier = {
+#					parameter = forest_trait_bonuses
+#					forest_advantage = 1
+#					taiga_advantage = 1
+#				}
+#				culture_modifier = {
+#					parameter = jungle_trait_bonuses
+#					jungle_advantage = 1
+#				}			
+#			}
+#			100 = {
+#				stress_loss_mult = 0.1
+#				prowess = 2
+#				health = 0.15
+#				learning = 1
+#				glory_hound_opinion = 10
+#				culture_modifier = {
+#					parameter = hunting_traits_more_valued
+#					monthly_prestige = 0.5
+#					glory_hound_same_culture_opinion = 5
+#				}
+#				culture_modifier = {
+#					parameter = hunting_traits_more_pious
+#					monthly_piety = 0.4
+#					glory_hound_same_faith_opinion = 5
+#				}
+#				culture_modifier = {
+#					parameter = forest_trait_bonuses
+#					taiga_advantage = 1
+#				}
+#				culture_modifier = {
+#					parameter = jungle_trait_bonuses
+#					jungle_advantage = 1
+#				}
+#			}
+#		}
+#	}
+#
+#	compatibility = {
+#		brave = @pos_compat_low
+#		diligent = @pos_compat_low
+#		craven = @neg_compat_low
+#		lazy = @neg_compat_low
+#	}
+#
+#	ai_energy = 15
+#}
+
+lifestyle_blademaster = {
+	category = lifestyle
+	icon = blademaster.dds
+
+	# Modifiers
+	negate_health_penalty_add = 0.25
+	prowess = 3
+	culture_modifier = {
+		parameter = trait_county_opinion_modifiers
+		county_opinion_add = 2
+	}
+	culture_modifier = {
+		parameter = blademaster_trait_bonuses
+		attraction_opinion = 5
+		monthly_prestige = 0.25
+	}
+	culture_modifier = {
+		parameter = blademaster_traits_give_learning
+		learning = 2
+	}	
+
+	track = {
+		50 = {
+			negate_health_penalty_add = 0.25
+			prowess = 3
+			culture_modifier = {
+				parameter = trait_county_opinion_modifiers
+				county_opinion_add = 3
+			}			
+			culture_modifier = {
+				parameter = blademaster_trait_bonuses
+				attraction_opinion = 5
+				monthly_prestige = 0.25
+			}
+			culture_modifier = {
+				parameter = blademaster_traits_give_learning
+				learning = 2
+			}
+		}
+		100 = {
+			negate_health_penalty_add = 0.5
+			prowess = 6
+			
+			culture_modifier = {
+				parameter = trait_county_opinion_modifiers
+				county_opinion_add = 5
+			}
+			
+			culture_modifier = {
+				parameter = blademaster_trait_bonuses
+				attraction_opinion = 5
+				monthly_prestige = 0.5
+			}
+
+			culture_modifier = {
+				parameter = blademaster_traits_give_learning
+				learning = 2
+			}
+		}
+	}
+
+	ruler_designer_cost = 20
+
+	# Loc
+	name = {
+		first_valid = {
+			#Legendary Blademaster
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 100
+					}
+				}
+				desc = trait_blademaster_3
+			}
+			#Blademaster
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 50
+					}
+				}
+				desc = trait_blademaster_2
+			}
+			#Aspiring Blademaster
+			desc = trait_blademaster_1
+		}
+	}
+
+	# Loc
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_blademaster_1_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 100
+					}
+				}
+				desc = trait_blademaster_3_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 50
+					}
+				}
+				desc = trait_blademaster_2_character_desc
+			}
+			desc = trait_blademaster_1_character_desc
+		}
+	}
+
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}

@@ -1,0 +1,128 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+e_wyveria = {
+    color = { 0 0 0 }
+    color2 = { 255 255 255 }
+    capital = c_altoris
+
+    k_caltyrin = {
+        color = { 0 0 0 }
+        color2 = { 255 255 255 }
+        capital = c_altoris
+
+        d_mitrifell = {
+            color = { 0 0 0 }
+            color2 = { 255 255 255 }
+            capital = c_altoris
+            
+            c_altoris = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+                b_altoris = {
+                    province = 3
+				}
+				b_eastrun = {
+                    province = 5
+                }
+				b_northrun = {
+                    province = 6
+                }
+			}
+			c_wheatlend = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+				b_greenfield = {
+                    province = 8
+                }
+				b_riverside = {
+                    province = 12
+                }
+				b_hillside = {
+                    province = 13
+                }
+				b_forestside = {
+                    province = 14
+				}
+				b_kalwood = {
+                    province = 23
+                }
+			}
+			c_lordswood = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+				b_lordswood_west = {
+                    province = 9
+                }
+				b_lordswood_east = {
+                    province = 15
+                }
+				b_lordswood_north = {
+                    province = 16
+                }
+			}
+			c_mudland = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+				b_westrun = {
+                    province = 7
+                }
+				b_medfield = {
+                    province = 10
+                }
+				b_werrik = {
+                    province = 11
+                }
+				b_redstead = {
+                    province = 18
+                }
+			}
+			c_morren = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+				b_weyttle = {
+                    province = 1
+				}
+				b_greenstead = {
+                    province = 19
+                }
+				b_brownstead = {
+                    province = 20
+                }
+				b_greenwood = {
+                    province = 21
+                }
+            }
+			c_riverbreak = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+				b_riverbreak = {
+                    province = 4
+                }		
+            }
+			c_red_isle = {
+                color = { 227 115 149 }
+                color2 = { 255 255 255 }
+				b_westred = {
+                    province = 24
+                }
+				b_eastred = {
+                    province = 25
+                }
+				b_soutred = {
+                    province = 26
+                }
+				b_bronze_isle = {
+                    province = 27
+                }
+            }
+        }
+    }
+}
+
+# These titles cut hundreds of errors from logs. 
+k_high_preist_athoryn = { landless = yes }
+e_hre = { landless = yes }
+e_byzantium = { landless = yes }
+e_roman_empire = { landless = yes }

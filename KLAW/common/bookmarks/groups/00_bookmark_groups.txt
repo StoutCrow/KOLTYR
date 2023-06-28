@@ -1,0 +1,7 @@
+﻿# bm_group_867 = {
+# 	default_start_date = 867.1.1
+# }
+
+bm_group_1232 = {
+	default_start_date = 1232.9.15
+}

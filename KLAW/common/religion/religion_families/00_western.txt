@@ -1,0 +1,6 @@
+﻿rf_abrahamic = {
+	piety_icon_group = "catholic"
+	graphical_faith = "catholic_gfx"
+	hostility_doctrine = abrahamic_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_christian.dds
+}

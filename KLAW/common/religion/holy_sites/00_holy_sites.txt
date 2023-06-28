@@ -1,0 +1,16 @@
+﻿#################
+# WESTERN
+#################
+
+#Caltyric:
+#altoris
+
+altoris = { # An ancient city beloved to both the druidic and western athoryn people.
+	county = c_altoris
+
+	character_modifier = {
+		name = holy_site_altoris_effect_name
+		martial = 1
+		councillor_opinion = 5
+	}
+}

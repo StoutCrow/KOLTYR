@@ -1,0 +1,51 @@
+﻿language_avenic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_avenic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_avenic }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+language_vyrdic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vyrdic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_avenic }
+			multiply = 10
+		}
+	}
+	
+	color = norse
+}
+language_old_neridic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_old_neridic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_old_neridic }
+			multiply = 10
+		}
+	}
+	
+	color = gaelic
+}

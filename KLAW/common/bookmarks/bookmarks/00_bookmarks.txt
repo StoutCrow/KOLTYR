@@ -1,0 +1,25 @@
+﻿bm_1232_caltyrin = {
+	start_date = 1232.10.1
+	is_playable = yes
+	group = bm_group_1232
+
+	weight = { value = 100 }
+
+	# Arthyr IV
+	character = {
+		name = "Arthyr the Fourth"
+		dynasty = house_Nolfyr
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1177.1.1
+		title = k_caltyrin
+		government = fuedal_government
+		culture = athoryn
+		religion = "caltyric"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = nolfyr_2
+		position = { 250 750 }
+
+		animation = happiness
+	}
+}

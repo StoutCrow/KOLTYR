@@ -1,0 +1,13 @@
+﻿###ATHORYN
+#Nolfyr
+house_Nolfyr = {
+	name = "house_Nolfyr"
+	dynasty = dynn_Aomer
+	culture = athoryn
+}
+
+house_Aomer = {
+	name = "house_Aomer"
+	dynasty = dynn_Aomer
+	culture = athoryn
+}
