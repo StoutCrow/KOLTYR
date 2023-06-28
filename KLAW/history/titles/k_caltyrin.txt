@@ -1,0 +1,104 @@
+﻿e_wyveria = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+
+k_caltyrin = {
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = { government = feudal_government }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+d_mitrifell = {
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+c_altoris = {
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+c_riverbreak = {
+	634.1.1 = {
+		liege = "k_caltyrin"
+	}
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = riverbreak_1
+	}
+}
+
+c_wheatlend = {
+	634.1.1 = {
+		liege = "k_caltyrin"
+	}
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+c_lordswood = {
+	634.1.1 = {
+		liege = "k_caltyrin"
+	}
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+c_mudland {
+	634.1.1 = {
+		liege = "k_caltyrin"
+	}
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+c_morren {
+	634.1.1 = {
+		liege = "k_caltyrin"
+	}
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}
+
+c_red_isle {
+	634.1.1 = {
+		liege = "k_caltyrin"
+	}
+	767.1.1 = { government = feudal_government }
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1232.1.1 = {
+		holder = nolfyr_2
+	}
+}

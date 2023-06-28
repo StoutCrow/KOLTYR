@@ -1,0 +1,163 @@
+﻿nolfyr_2 = {
+	name = Arthyr #IV
+	dna = nolfyr_arthyr_4
+	dynasty_house = house_Nolfyr
+	martial = 11
+	diplomacy = 13
+	intrigue = 8
+	stewardship = 5
+	learning = 4
+	prowess = 11
+	religion = caltyric
+	culture = athoryn
+	trait = honest
+	trait = just
+	trait = gregarious
+	trait = diligent
+	trait = intellect_good_2
+	trait = education_diplomacy_4
+	sexuality = heterosexual
+	1177.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1200.1.1 = {
+		add_spouse = 
+	}
+	1203.1.1 = {
+		give_nickname = nick_the_good
+	}
+	1242.1.1 = {
+		death = yes
+	}
+}
+
+nolfyr_3 = {
+	name = Henri
+	dna = nolfyr_henri_2
+	dynasty_house = house_Nolfyr
+	martial = 11
+	diplomacy = 13
+	intrigue = 8
+	stewardship = 5
+	learning = 4
+	prowess = 11
+	religion = caltyric
+	culture = athoryn
+	trait = honest
+	trait = brave
+	trait = ambitious
+	trait = arbitrary
+	trait = intellect_good_2
+	trait = education_martial_4
+	trait = education_martial_prowess_3
+	sexuality = heterosexual
+	father = nolfyr_2
+	1209.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1283.1.1 = {
+		death = yes
+	}
+}
+
+nolfyr_4 = {
+	name = Elayna
+	dna = nolfyr_elayna
+	dynasty_house = house_Nolfyr
+	female = yes
+	martial = 11
+	diplomacy = 13
+	intrigue = 8
+	stewardship = 5
+	learning = 4
+	prowess = 11
+	religion = caltyric
+	culture = athoryn
+	trait = honest
+	trait = brave
+	trait = gregarious
+	trait = arbitrary
+	trait = intellect_good_2
+	trait = education_martial_4
+	sexuality = heterosexual
+	father = nolfyr_2
+	1212.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1283.1.1 = {
+		death = yes
+	}
+}
+
+nolfyr_1 = {
+	name = Owyn #the Uniter
+	dna = nolfyr_owyn
+	dynasty_house = house_Aomer
+	martial = 11
+	diplomacy = 13
+	intrigue = 8
+	stewardship = 5
+	learning = 4
+	prowess = 11
+	religion = caltyric
+	culture = athoryn
+	trait = honest
+	trait = just
+	trait = gregarious
+	trait = diligent
+	trait = intellect_good_2
+	trait = education_martial_4
+	sexuality = heterosexual
+	493.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1203.1.1 = {
+		give_nickname = nick_the_good
+	}
+	538.10.26 = {
+		death = yes
+	}
+}
+
+riverbreak_1 = {
+	name = Mord #of Riverbreak
+	dna = nolfyr_arthyr_4
+	martial = 4
+	diplomacy = 11
+	intrigue = 14
+	stewardship = 5
+	learning = 4
+	prowess = 2
+	religion = caltyric
+	culture = athoryn
+	trait = craven
+	trait = fickle
+	trait = ambitious
+	trait = education_intrigue_3
+	trait = education_martial_prowess_1
+	sexuality = heterosexual
+	1193.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1209.1.1 = {
+		give_nickname = nick_the_weak
+	}
+	1272.1.1 = {
+		death = yes
+	}
+}

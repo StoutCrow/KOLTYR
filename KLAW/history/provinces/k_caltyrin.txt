@@ -1,0 +1,221 @@
+﻿#k_caltyrin
+##d_mitrifell ###################################
+###c_altoris
+1 = {		#WEYTTLE
+	culture = athoryn
+	religion = athoryn
+	holding = city_holding
+		1000.1.2 = {
+		religion = caltyric
+	}
+	1066.1.1 = {
+		buildings = {
+			farm_estates_01
+		}
+	}
+}
+3 = {		#ALTORIS
+	culture = athoryn
+	religion = athoryn
+	holding = castle_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+	1066.1.1 = {
+		buildings = {
+			castle_03
+			curtain_walls_02
+			farm_estates_01
+			barracks_01
+			#pastures_01
+		}
+	}
+}
+4 = {		#RIVERBREAK
+	culture = athoryn
+	religion = athoryn
+	holding = castle_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+5 = {		#EASTRUN
+	culture = athoryn
+	religion = athoryn
+	holding = city_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+6 = {		#NORTHRUN
+	culture = athoryn
+	religion = athoryn
+	holding = temple_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+7 = {		#WESTRUN
+	culture = athoryn
+	religion = athoryn
+	holding = castle_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+8 = {		#GREENFIELD
+	culture = athoryn
+	religion = athoryn
+	holding = castle_holding
+	1000.1.2 = {
+		buildings = {
+			castle_02
+			curtain_walls_01
+		}
+		religion = caltyric
+	}
+}
+9 = {		#WEST LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+10 = {		#MEDFIELD
+	culture = athoryn
+	religion = athoryn
+	holding = temple_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+11 = {		#WERRIK
+	culture = athoryn
+	religion = athoryn
+	holding = temple_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+12 = {		#RIVERSIDE
+	culture = athoryn
+	religion = athoryn
+	holding = city_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+13 = {		#HILLSIDE
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+14 = {		#FORESTSIDE
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+15 = {		#EAST LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = castle_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+16 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+17 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+18 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+19 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = city_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+20 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = temple_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+21 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+22 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+23 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+24 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = castle_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+25 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = none
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
+26 = {		#NORTH LORDSWOOD
+	culture = athoryn
+	religion = athoryn
+	holding = city_holding
+	1000.1.2 = {
+		religion = caltyric
+	}
+}
