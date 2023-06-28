@@ -1,0 +1,115 @@
+﻿object={
+	name="env_desert_ambient_close"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="env_desert_plains_ambient"
+	count=0
+}
+object={
+	name="env_desert_mountains"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_mountains_layer"
+	entity="env_desert_mountains"
+	count=0
+}
+object={
+	name="env_desert_plains"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="env_desert_plains"
+	count=0
+}
+object={
+	name="env_desert_plains_ambient"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="env_desert_plains_ambient"
+	count=0
+}
+object={
+	name="env_forest_mountains"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_mountains_layer"
+	entity="env_mist_sun"
+	count=4
+	transform="1152.678589 0.000000 2270.324707 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1168.863159 0.000000 2225.944336 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1231.808350 0.000000 2228.615723 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1242.747314 0.000000 2274.691895 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="env_mist_forest"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="env_mist_sun"
+	count=5
+	transform="1050.545044 0.000000 2196.877197 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1286.325073 0.000000 2226.144287 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1370.697876 0.000000 2211.494873 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+970.777100 0.000000 2196.978516 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+977.950500 0.000000 2203.181152 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="env_snow_mountains"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_mountains_layer"
+	entity="env_snow_mountains"
+	count=0
+}
+object={
+	name="env_snow_plains"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="env_snow_plains"
+	count=0
+}
+object={
+	name="env_snow_plains_ambient"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="env_snow_plains_ambient"
+	count=0
+}
+object={
+	name="waterfall"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="coast_foam_layer"
+	entity="waterfall"
+	count=4
+	transform="1152.669922 3.410156 2260.500977 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1176.392822 2.463867 2263.576904 0.000000 -0.908661 0.000000 -0.417534 1.000000 1.000000 1.000000
+910.595642 0.671875 2274.182861 0.000000 -0.824057 0.000000 -0.566507 1.000000 1.000000 1.000000
+909.139893 0.429443 2274.321045 0.000000 0.791240 0.000000 0.611506 1.000000 1.000000 1.000000
+"}
+object={
+	name="waterfall_bottom"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="coast_foam_layer"
+	entity="waterfall_bottom"
+	count=3
+	transform="1152.906616 0.000000 2258.961182 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+1176.048340 0.000000 2263.341553 0.000000 -0.357254 0.000000 0.934007 1.000000 1.000000 1.000000
+909.754883 0.000000 2273.742432 0.000000 -0.539805 0.000000 0.841790 1.000000 1.000000 1.000000
+"}

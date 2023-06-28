@@ -1,0 +1,22 @@
+﻿object={
+	name="env_coast_foam_m"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="coast_foam_layer"
+	entity="env_coast_foam_m"
+	count=3
+	transform="966.480652 0.000000 2180.429932 0.000000 -0.043741 0.000000 0.999043 1.000000 1.000000 1.000000
+948.407898 0.000000 2181.887207 0.000000 0.050546 0.000000 0.998722 1.000000 1.000000 1.000000
+906.830872 0.000000 2224.768311 0.000000 0.622234 0.000000 0.782832 1.000000 1.000000 1.000000
+"}
+object={
+	name="env_coast_foam_s"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="coast_foam_layer"
+	entity="env_coast_foam_s"
+	count=1
+	transform="917.797913 0.000000 2204.893066 0.000000 0.655655 0.000000 0.755061 1.000000 1.000000 1.000000
+"}
