@@ -1,0 +1,91 @@
+﻿l_english:
+
+ #Common western Localization
+ western_religion:0 "Western Gods"
+ western_religion_adj:0 "Western"
+ western_religion_adherent:0 "Western"
+ western_religion_adherent_plural:0 "Westerners"
+ western_religion_desc:0 "The Western Gods of Caltyrin are a splintered group of the Tivarian gods. Rooted in many druidic beliefs of the Athoryn Gods, this faith has been influenced by the Ronnosi and Rydic gods as well."
+ western_high_god_name:0 "God"
+ western_high_god_name_2:0 "$western_high_god_name$" # Optional translation alt
+ western_high_god_name_3:0 "$western_high_god_name$" # Optional translation alt
+ western_high_god_name_possessive:0 "God's"
+ western_high_god_name_alternate:0 "The Lord"
+ western_high_god_name_alternate_possessive:0 "The Lord's"
+ chistianity_good_god_jesus:0 "$western_health_god_name$"
+ chistianity_good_god_christ:0 "Christ"
+ western_devil_name:0 "Satan"
+ western_devil_name_possessive:0 "Satan's"
+ western_evil_god_lucifer:0 "Lucifer"
+ western_evil_god_beelzebub:0 "Beelzebub"
+ western_evil_god_mephistopheles:0 "Mephistopheles"
+ western_death_deity_name:0 "Death"
+ western_death_deity_name_possessive:0 "Death's"
+ western_house_of_worship:0 "church"
+ western_house_of_worship_2:0 "$western_house_of_worship$" # Optional translation alt
+ western_house_of_worship_3:0 "$western_house_of_worship$" # Optional translation alt
+ western_house_of_worship_plural:0 "churches"
+ western_religious_symbol:0 "cross"
+ western_religious_symbol_2:0 "$western_religious_symbol$" # Optional translation alt
+ western_religious_symbol_3:0 "$western_religious_symbol$" # Optional translation alt
+ western_religious_text:0 "scriptures"
+ western_religious_text_2:0 "$western_religious_text$" # Optional translation alt
+ western_religious_text_3:0 "$western_religious_text$" # Optional translation alt
+ western_religious_head_title:0 "Pope"
+ western_religious_head_title_name:0 "Papacy"
+ western_devotee_male:0 "monk"
+ western_devotee_male_plural:0 "monks"
+ western_devotee_female:0 "nun"
+ western_devotee_female_plural:0 "nuns"
+ western_devotee_neuter:0 "monastic"
+ western_devotee_neuter_plural:0 "monastics"
+ western_priest_male:0 "priest"
+ western_priest_male_plural:0 "priests"
+ western_priest_alternate_plural:0 "clergy"
+ western_bishop:0 "bishop"
+ western_bishop_plural:0 "bishops"
+ western_positive_afterlife:0 "heaven"
+ western_positive_afterlife_2:1 "paradise" # Optional translation alt
+ western_positive_afterlife_3:1 "$western_high_god_name_possessive$ Kingdom" # Optional translation alt
+ western_negative_afterlife:0 "hell"
+ western_negative_afterlife_2:1 "the Pit" # Optional translation alt
+ western_negative_afterlife_3:1 "Gehenna" # Optional translation alt
+ western_witchgodname_the_horned_god:0 "the Horned God"
+ western_witchgodname_the_horned_god_possessive:0 "the Horned God's"
+
+ western_creator_god_name:0 "$western_high_god_name$"
+ western_creator_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_health_god_name:0 "Jesus"
+ western_health_god_name_possessive:0 "Jesus'"
+ western_fertility_god_name:0 "$western_high_god_name$"
+ western_fertility_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_wealth_god_name:0 "$western_high_god_name$"
+ western_wealth_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_household_god_name:0 "$western_health_god_name$"
+ western_household_god_name_possessive:0 "$western_health_god_name_possessive$"
+ western_fate_god_name:0 "$western_high_god_name$"
+ western_fate_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_knowledge_god_name:0 "$western_high_god_name$"
+ western_knowledge_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_war_god_name:0 "$western_high_god_name$"
+ western_war_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_trickster_god_name:0 "Fortuna"
+ western_trickster_god_name_possessive:0 "Fortuna's"
+ western_night_god_name:0 "$western_high_god_name$"
+ western_night_god_name_possessive:0 "$western_high_god_name_possessive$"
+ western_water_god_name:0 "$western_health_god_name$"
+ western_water_god_name_possessive:0 "$western_health_god_name_possessive$"
+
+ #Caltyric Gods
+ caltyric:0 "Caltyric Gods"
+ caltyric_adj:0 "Caltyric Gods"
+ caltyric_adherent:0 "Caltyric"
+ caltyric_adherent_plural:0 "Caltyric Gods"
+ caltyric_desc:0 "The group of the Caltyric Gods is rooted in the druidic Athoryn beliefs of the hills, but have taken influence from many Tivarian religions. The Caltyric gods are eight benevolent beings who are said to live on the 8 planets in the sky."
+ 
+ #Athoryn Gods
+ athoryn:0 "Athoryn Gods"
+ athoryn_adj:0 "Athoryn Gods"
+ athoryn_adherent:0 "Athoryn"
+ athoryn_adherent_plural:0 "Athoryn Gods"
+ athoryn_desc:0 "The beliefs of the druidic Athoryn peoples is rooted in protection of nature and reading of the stars."

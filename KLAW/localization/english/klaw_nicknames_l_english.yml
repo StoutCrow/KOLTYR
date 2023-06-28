@@ -1,0 +1,7 @@
+﻿l_english:
+ DEFAULT_NICKNAME_DESC:2 "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat] as '[CHARACTER.GetNicknameNoTooltip]'."
+ 
+ nick_kjaelnr:0 "Kjaelnr"
+ nick_kjaelnr_desc:1 "Kjaelnr, or Rightous One in old Avenic, is what many know [CHARACTER.GetShortUINameNoTooltipNoFormat] as now. Sinners across the land tremble when they hear this name, as [CHARACTER.GetShortUINameNoTooltipNoFormat] is sure to strike them down."
+ nick_whorefucker:0 "Whorefucker"
+ nick_whorefucker_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat] has fathered one too many bastard children for many's taste."

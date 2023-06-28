@@ -1,0 +1,9 @@
+l_english:
+ #altaic_group:0 "Altaic"
+ #altaic_group_collective_noun:0 "Altaics"
+ #Virican group
+ virican_group:0 "Virican"
+ virican_group_collective_noun:0 "Viricans"
+ athoryn:0 "Athoryn"
+ athoryn_prefix:0 "Athor"
+ athoryn_collective_noun:0 "Athoryns"
